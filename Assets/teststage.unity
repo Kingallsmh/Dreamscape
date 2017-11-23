@@ -361,28 +361,11 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 708437316}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &864470307 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1001611845246492, guid: 27723165155e32d4996817cbf9fb5dd6,
-    type: 2}
-  m_PrefabInternal: {fileID: 1945669370}
 --- !u!4 &864470309 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4049075181364590, guid: 27723165155e32d4996817cbf9fb5dd6,
     type: 2}
   m_PrefabInternal: {fileID: 1945669370}
---- !u!65 &864470314
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 864470307}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.3, y: 0.1, z: 0.3}
-  m_Center: {x: 0, y: 0.01, z: 0}
 --- !u!1 &914149168
 GameObject:
   m_ObjectHideFlags: 0
@@ -660,36 +643,6 @@ Prefab:
       propertyPath: currentTarget
       value: 
       objectReference: {fileID: 1979389368}
-    - target: {fileID: 114697811141181182, guid: 27723165155e32d4996817cbf9fb5dd6,
-        type: 2}
-      propertyPath: constGravity
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114697811141181182, guid: 27723165155e32d4996817cbf9fb5dd6,
-        type: 2}
-      propertyPath: jumpSpeed
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 114697811141181182, guid: 27723165155e32d4996817cbf9fb5dd6,
-        type: 2}
-      propertyPath: maxVelChange
-      value: 35
-      objectReference: {fileID: 0}
-    - target: {fileID: 114697811141181182, guid: 27723165155e32d4996817cbf9fb5dd6,
-        type: 2}
-      propertyPath: speed
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 114697811141181182, guid: 27723165155e32d4996817cbf9fb5dd6,
-        type: 2}
-      propertyPath: totalJumps
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114697811141181182, guid: 27723165155e32d4996817cbf9fb5dd6,
-        type: 2}
-      propertyPath: availableJumps
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 27723165155e32d4996817cbf9fb5dd6, type: 2}
   m_IsPrefabParent: 0

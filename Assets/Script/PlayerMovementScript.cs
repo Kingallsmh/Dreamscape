@@ -109,6 +109,10 @@ public class PlayerMovementScript : MonoBehaviour {
                 input.y = jumpSpeed;
                 availableJumps -= 1;
             }
+            if(rb.velocity.y > 0 && control.GetBtnHeld(4))
+            {
+                currentGravity /= 2;
+            }
         }
     }
 
@@ -119,7 +123,7 @@ public class PlayerMovementScript : MonoBehaviour {
         newTrans.transform.eulerAngles = new Vector3(0, newTrans.transform.rotation.eulerAngles.y, 0);
         input.y = rb.velocity.y;
         Jump();
-        if(input.y > -maxVelChange)
+        if (input.y > -maxVelChange)
         {
             input.y += currentGravity;
         }
